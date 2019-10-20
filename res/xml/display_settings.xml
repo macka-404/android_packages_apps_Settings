@@ -161,6 +161,13 @@
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
 
+        <com.p404.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.p404.fragments.NetworkTraffic"
+            android:defaultValue="false" />
+        
         <SwitchPreference
             android:key="camera_gesture"
             android:title="@string/camera_gesture_title"
