@@ -146,4 +146,8 @@
      <!-- Double tap status bar to sleep -->
     <string name="dt2s_statusbar_title">Tap on status bar</string>
     <string name="dt2s_statusbar_summary">Double tap the status bar to put the device to sleep</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
 </resources>
